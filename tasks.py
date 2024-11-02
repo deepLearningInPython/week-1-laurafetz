@@ -31,8 +31,9 @@ def step(x):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu(x) :
-return (np. maximum (0, x))
+
+def ReLu(x, cutoff=0):
+    return np.maximum(cutoff, x)
 
 # -----------------------------------------------
 
