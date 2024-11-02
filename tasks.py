@@ -50,7 +50,7 @@ def ReLu(x, cutoff=0):
 
 def neural_net_layer(matrix, vector):
     result = np.dot(matrix, vector)
-    activated_result = ReLU (result)
+    activated_result = ReLu (result)
     return activated_result
 
 
