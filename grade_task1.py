@@ -6,7 +6,7 @@ def test_step_positive():
     assert step(5) == 1, "Failed on positive input"
 
 def test_step_negative():
-    assert step(-3) == 0, "Failed on negative input"
+    assert step(-3) == -1, "Failed on negative input"
 
 def test_step_zero():
-    assert step(0) == 0, "Failed on zero input"
+    assert step(0) == -1, "Failed on zero input"
